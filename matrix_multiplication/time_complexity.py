@@ -34,7 +34,7 @@ def divide_conquer(m1,m2):
     p6=divide_conquer(c,h)
     p7=divide_conquer(d,f)
     p8=divide_conquer(c,g)
-    result=np.zeros((2 * m,2 * m),dtype=np.int32)
+    result=np.zeros((2 * m,2 * m),dtype=np.int64)
 
     result[: m, : m] = p1+p2
     result[: m, m:] = p3+p4
@@ -52,7 +52,7 @@ def iterative (mat1,mat2,mat3):
     return mat3
     
 def Vectorized(mat1,mat2):
-    mat=np.dot(mat1,mat2,dtype=np.int64)
+    mat=np.dot(mat1,mat2)
     return mat
 
 def generate_matrix():
@@ -64,7 +64,7 @@ def generate_matrix():
     for i in range (1,50):
         matrix1= np.random.randint(1,5,size=(i,i),dtype=np.int64)
         matrix2= np.random.randint(1,5,size=(i,i),dtype=np.int64)
-        matrix3=np.zeros([i,i],out=np.ndarray.astype(np.int64))
+        matrix3=np.zeros([i,i],dtype=np.int64)
 
         time2=time.time()*1000
         matrix4=divide_conquer(matrix1,matrix2)

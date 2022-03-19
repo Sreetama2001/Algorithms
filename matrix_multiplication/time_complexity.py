@@ -52,7 +52,7 @@ def iterative (mat1,mat2,mat3):
     return mat3
     
 def Vectorized(mat1,mat2):
-    mat=np.dot(mat1,mat2,dtype=np.int64)
+    mat=np.dot(mat1,mat2)
     return mat
 
 def generate_matrix():
@@ -64,7 +64,7 @@ def generate_matrix():
     for i in range (1,50):
         matrix1= np.random.randint(1,5,size=(i,i),dtype=np.int64)
         matrix2= np.random.randint(1,5,size=(i,i),dtype=np.int64)
-        matrix3=np.zeros([i,i],out=np.ndarray.astype(np.int64))
+        matrix3=np.zeros([i,i],dtype=np.int64)
 
         time2=time.time()*1000
         matrix4=divide_conquer(matrix1,matrix2)
@@ -82,7 +82,7 @@ def generate_matrix():
         matrix7=Strassen_algo(matrix1,matrix2)
         Y4.append(time.time()*1000-time5)
         X.append(i)
-       #print(f"size {i}* {i} --",Y2,"  secs \n")
+       #print(f"size {i}* {i} --",Y4,"  secs \n")
     
     return [X,Y1,Y2,Y3,Y4]
 

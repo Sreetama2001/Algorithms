@@ -34,7 +34,7 @@ def divide_conquer(m1,m2):
     p6=divide_conquer(c,h)
     p7=divide_conquer(d,f)
     p8=divide_conquer(c,g)
-    result=np.zeros((2 * m,2 * m),dtype=np.int32)
+    result=np.zeros((2 * m,2 * m),dtype=np.int64)
 
     result[: m, : m] = p1+p2
     result[: m, m:] = p3+p4

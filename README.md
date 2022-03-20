@@ -11,10 +11,15 @@ More importantly we will look at concepts and real world examples more than the 
    * strasen multiplication 
    * normal vs strassen vs vectorized
    
+
+* Finding simiarity between various documents 
    
 * Heuristic approach of solving algorithms
 
-* Finding simiarity between various documents 
+* Dynamic Programing
+
+* Understanding Time Complexities !
+
 
 * Continued...
  

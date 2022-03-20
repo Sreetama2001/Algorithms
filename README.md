@@ -12,8 +12,10 @@ More importantly we will look at concepts and real world examples more than the 
    * normal vs strassen vs vectorized
    
    
-* Heuristic of solving algorithms
+* Heuristic approach of solving algorithms
+
 * Finding simiarity between various documents 
+
 * Continued...
  
 

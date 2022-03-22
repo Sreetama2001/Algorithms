@@ -11,6 +11,7 @@ More importantly we will look at concepts and real world examples more than the 
    * strasen multiplication 
    * normal vs strassen vs vectorized
    
+<<<<<<< HEAD
 * Types of GRAPHS
 
       basic implementation of | bfs | dfs| Topological sort | Kahn's Algorithm| Minimum spanning tree |Prim's Algo
@@ -19,7 +20,18 @@ More importantly we will look at concepts and real world examples more than the 
      
 
 * Heuristic of solving algorithms
+=======
+
+>>>>>>> 0ead81a324302e18f1b536c2b97ae71a353adb13
 * Finding simiarity between various documents 
+   
+* Heuristic approach of solving algorithms
+
+* Dynamic Programing
+
+* Understanding Time Complexities !
+
+
 * Continued...
  
 

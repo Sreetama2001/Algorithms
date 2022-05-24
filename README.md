@@ -15,20 +15,21 @@ More importantly we will look at concepts and real world examples more than the 
 * Types of GRAPHS
 
       basic implementation of | bfs | dfs| Topological sort | Kahn's Algorithm| Minimum spanning tree |Prim's Algo
-      Krushkal's Algo| Shortest paths 
+      Krushkal's Algo| Shortest paths| Travelling salesman problem (brute force and greedy)
+      
 
      
-
 * Heuristic of solving algorithms
 
-* Finding simiarity between various documents 
+       A*  and  AO* algorithms , Hill climbing , beam search algorithms
+
+* leetcode problems
    
 * Heuristic approach of solving algorithms
 
 * Dynamic Programing
 
 * Understanding Time Complexities !
-
 
 * Continued...
  

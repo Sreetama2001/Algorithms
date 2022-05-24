@@ -1,0 +1,13 @@
+**********Adjacency lists vs matrices**********
+
+lists                              ||                     matrices
+# suitable for sparse                    # suitable for dense graphs
+ graphs (more zeroes and less 1)                
+
+# takes less space                       # takes more space
+
+# difficult handle for begginners
+
+eg: social network graphs 
+ like facebook and insta 
+ 
